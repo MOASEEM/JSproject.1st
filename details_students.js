@@ -38,7 +38,7 @@ function listNFTs() {
         console.log("sst_marks: " + nftCollections[i].sst_marks);
         console.log("hindi_marks: " + nftCollections[i].hindi_marks);
         console.log("english_marks: " + nftCollections[i].english_marks);
-        console.log("class_name: " + nftCollections[i].class_name + "%");
+        console.log("class_name: " + nftCollections[i].class_name);
         console.log("\n\n====================================================\n");
     }
 }
