@@ -14,11 +14,11 @@ let nftCollections = [];
 // This function will take in some values as parameters, create an
 // NFT object using the parameters passed to it for its metadata, 
 // and store it in the variable above.
-function mintNFT(name, math_marks, scince_marks, sst_marks, hindi_marks, english_marks, class_name) {
+function mintNFT(name, math_marks, science_marks, sst_marks, hindi_marks, english_marks, class_name) {
     let NFT = {
         name: name,
         math_marks: math_marks,
-        scince_marks: scince_marks,
+        science_marks: science_marks,
         sst_marks: sst_marks,
         hindi_marks: hindi_marks,
         english_marks: english_marks,
@@ -34,9 +34,9 @@ function listNFTs() {
         console.log("\n\n==================== NFT DETAILS ====================\n\n");
         console.log("Name: " + nftCollections[i].name);
         console.log("math_marks: " + nftCollections[i].math_marks);
-        console.log("scince_marks: " + nftCollections[i].scince_marks1);
+        console.log("science_marks: " + nftCollections[i].science_marks);
         console.log("sst_marks: " + nftCollections[i].sst_marks);
-        console.log("hindi_marks: " + nftCollections[i].hindi_marks3);
+        console.log("hindi_marks: " + nftCollections[i].hindi_marks);
         console.log("english_marks: " + nftCollections[i].english_marks);
         console.log("class_name: " + nftCollections[i].class_name + "%");
         console.log("\n\n====================================================\n");
